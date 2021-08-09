@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Register form</title>
+    <link rel="stylesheet" href="f2.css" type="text/css">
+</head>
+<body>
+    <h1>Register Here!</h1>
+    <table align="center"  cellpadding="10">
+       
+        <tr>
+            <td> First Name :</td>
+            <td>
+                <input type="text" id="name" name="name" placeholder="Enter a  first name"  pattern="[A-Z]{1}[a-z]{2,15}"/>
+            </td>
+        </tr>
+        <tr>
+            <td> Last Name :</td>
+            <td>
+                <input type="text" id="name" name="name" placeholder="Enter a last name"  pattern="[A-Z]{1}[a-z]{2,15}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td>
+                <input type="email" id="name" name="email" placeholder="abe@gmail.com"  />
+            </td>
+        </tr>
+        <tr>
+            <td> Password :</td>
+            <td>
+                <input type="password" id="name" name="password" placeholder="Enter a password" />
+            </td>
+        </tr>
+        <tr>
+            <td> Date Of Birth :</td>
+            <td>
+                <input type="date" id="name" name="date of birth" />
+            </td>
+        </tr>
+        <tr>
+            <td> Mobile Number :</td>
+            <td>
+                <input type="number" id="name" name="number" placeholder="Enter a mobile number" pattern="[0-9]{9}"/>
+            </td>
+        </tr>
+        <tr>
+            <td> Gender :</td>
+            <td>
+                <input type="radio" name="gender" />Male
+                <input type="radio" name="gender" />Female
+                <input type="radio" name="gender" />Other
+
+            </td>
+        </tr>
+        <tr>
+            <td> Address :</td>
+            <td>
+                <textarea rows="6"cols="25" placeholder="Enter a address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td> State :</td>
+            <td>
+                <input type="text" id="name" name="state" placeholder="Enter a State"  />
+            </td>
+        </tr>
+        <tr>
+            <td> Pincode :</td>
+            <td>
+                <input type="number"  id="name" name="pincode"  placeholder="Enter a pincode" pattern="[0-9]{6}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Events Interested :</td>
+            <td>
+                
+                <select name="event" multiple>
+                <option>Lan Gaming</option>
+                <option>Robo Games</option>
+                <option>Face Painting</option>
+                <option>Marketing</option>
+                <option>Short Film Making</option>
+                <option>Fashion Show</option>
+                <option>Debate</option>
+                <option>Cooking</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"  name="checkbox"/> Agree with above Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td align="center" colspan="2">
+                <input type="reset"  value="Reset">&nbsp;&nbsp;
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+        
+        
+
+    </table>
+</body>
+</html>
